@@ -21,7 +21,7 @@ public class SignIn extends Activity {
     }
 
     private void submitTasks() {
-        String address = "http://46.225.119.213:86/Service1.asmx?op=Authentication&&UserName=1&password=1";
+        String address = "http://46.225.119.213:86/Service1.asmx?op=Authentication&&UserName=مدیر&password=Alisadafkimia";
         final String serviceTAG = "test";
         ShizService shizService = new ShizService(this, serviceTAG) {
             @Override
